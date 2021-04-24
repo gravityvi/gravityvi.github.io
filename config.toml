@@ -12,10 +12,8 @@ theme = "hello"
     enableSharingButtons = true
 
 
-[Params.Potrait]
-    Path = "images/profile.jpg"
-
-    
+[params.portrait]
+    path='/images/profilePicture.jpg'
 
     [languages]
         [languages.en]
