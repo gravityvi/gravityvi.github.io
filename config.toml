@@ -1,0 +1,51 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Gravityvi"
+theme = "hello"
+
+# hello theme params
+[params]
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04"
+    enableSharingButtons = true
+
+
+[Params.Potrait]
+    Path = "images/profile.jpg"
+
+    
+
+    [languages]
+        [languages.en]
+            title = "Ravi Sawlani"
+            subtitle = "Software Developer"
+            keywords = ""
+            copyright = 'Ravi Sawlani'
+            readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "cd"
+      logoHomeLink = "/"
+
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts"
+
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+    
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/gravityvi"
+        
+    [[params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/ravi-sawlani-331672191/"
+
+    
+
