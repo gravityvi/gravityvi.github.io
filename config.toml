@@ -11,7 +11,7 @@ theme = "hello"
     dateformNumTime = "2006-01-02 15:04"
     enableSharingButtons = true
     homesubtitle = "Software Developer"
-
+    
 
 [params.portrait]
     path='/images/profilePicture.jpg'
@@ -45,6 +45,10 @@ theme = "hello"
     [[params.social]]
         name = "linkedin"
         url = "https://www.linkedin.com/in/ravi-sawlani-331672191/"
+
+    [[params.social]]
+        name = "twitter"
+        url = "https://twitter.com/gravity_vi"
 
     
 
