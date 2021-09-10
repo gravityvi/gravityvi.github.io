@@ -14,7 +14,7 @@ theme = "hello"
     
 
 [params.portrait]
-    path='/images/profilePicture.JPG'
+    path='/images/profilePicture.jpg'
 
     [languages]
         [languages.en]
