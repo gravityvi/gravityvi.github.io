@@ -42,7 +42,7 @@ We need to find the inner input element using XPath. One of the simpler ways wou
 <div>
  <input/>
  <div id="container">
-   <input id="input-username"/>
+   <input/>
  </div> 
 <div>
 ```
