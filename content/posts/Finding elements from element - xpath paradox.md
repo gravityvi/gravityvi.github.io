@@ -67,4 +67,4 @@ You will get the inner input element as expected. But what if you decide to use 
 It completely disregards that your code, to start searching for an element under a div element and gives you all the input element present on the page. Well xpath works differently it has different annotations for searching. In this example we are using `//` which means search anywhere for the element. There is useful website that discusses more such xpath expressions:  https://devhints.io/xpath. In this very example we need to use `./` for desired results.
 
 
-Happy coding :smiley: 
+Happy coding 😄
