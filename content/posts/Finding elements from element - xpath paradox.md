@@ -1,6 +1,6 @@
 ---
 title: 'Finding elements frrom element - xpath paradox'
-date: '2021-04-24T16:12:18+05:30'
+date: '2021-11-21T16:12:18+05:30'
 toc: false
 images:
 tags:
