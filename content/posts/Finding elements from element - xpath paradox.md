@@ -1,5 +1,5 @@
 ---
-title: 'Finding elements frrom element - xpath paradox'
+title: 'Finding Elements From Element - xpath paradox'
 date: '2021-11-21T16:12:18+05:30'
 toc: false
 images:
@@ -67,4 +67,4 @@ You will get the inner input element as expected. But what if you decide to use 
 It completely disregards that your code, to start searching for an element under a div element and gives you all the input element present on the page. Well xpath works differently it has different annotations for searching. In this example we are using `//` which means search anywhere for the element. There is useful website that discusses more such xpath expressions:  https://devhints.io/xpath. In this very example we need to use `./` for desired results.
 
 
-Happy coding :smile:
+Happy coding :smiley: 
