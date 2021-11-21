@@ -24,7 +24,7 @@ Xpath is a locator strategy used to find elements on a page. XPath stands for XM
 
 ## Finding Elements from Element
 
-There are a lot of different approaches for this purpose in different frameworks. [Nightwatch](https://nightwatchjs.org) uses page objects to define elements under a section and Selenium provides methods to look for an target-element inside an element. So let's take an example of a simple page that looks like this.
+There are a lot of different approaches for this purpose in different frameworks. [Nightwatch](https://nightwatchjs.org) uses page objects to define elements under a section and Selenium provides methods to look for a target-element inside an element. So let's take an example of a simple page that looks like this.
 
 ```html
 <div>
@@ -63,7 +63,7 @@ You will get the inner input element as expected. But what if you decide to use 
       let inputElement = await element.findElements(By.xpath("//input"));
 ```
 
-It completely disregards that your code, to start searching for an element under a div element and gives you all the input element present on the page. Well xpath works differently it has different annotations for searching. In this example we are using `//` which means search anywhere for the element. There is useful website that discusses more such xpath expressions:  https://devhints.io/xpath. In this very example we need to use `./` for desired results.
+It completely disregards your code to start searching for an element under a div element and gives you all the input elements present on the page. Well xpath works differently it has different annotations for searching. In this example we are using `//` which means search anywhere for the element. There is a useful a page that discusses more such xpath expressions:  https://devhints.io/xpath. In this very example we need to use `./` for desired results. 
 
 
 Happy coding 😄
