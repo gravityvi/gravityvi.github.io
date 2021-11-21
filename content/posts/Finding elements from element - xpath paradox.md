@@ -15,8 +15,7 @@ tags:
 
 ## Xpath
 
-Xpath is a locator strategy used to find elements on a page. XPath stands for XML path. XPath uses path expressions to select nodes from documents. Now working as a software developer has its advantages, one of them being, you work with cool digital devices.
-
+Xpath is a locator strategy used to find elements on a page. XPath stands for XML path. XPath uses path expressions to select nodes from documents.
 
 
 ## Usage In Automation Scripts
