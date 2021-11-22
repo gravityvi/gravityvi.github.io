@@ -66,4 +66,18 @@ You will get the inner input element as expected. But what if you decide to use 
 It completely disregards your code to start searching for an element under a div element and gives you all the input elements present on the page. Well xpath works differently it has different annotations for searching. In this example we are using `//` which means search anywhere for the element. There is a useful a page that discusses more such xpath expressions:  https://devhints.io/xpath. In this very example we need to use `./` for desired results. 
 
 
+There is also a [test](https://github.com/SeleniumHQ/selenium/blob/ec1e4fd77abcfa5be051b121337d54ad73d0d187/java/test/org/openqa/selenium/ChildrenFindingTest.java#L41) in Selenium Repository which shows this is the expected behavior while using xpath:
+```js
+  @Test
+  public void testFindingElementsOnElementByXPathShouldFindTopLevelElements() {
+    driver.get(pages.simpleTestPage);
+    WebElement parent = driver.findElement(By.id("multiline"));
+    List<WebElement> allPs = driver.findElements(By.xpath("//p"));
+    List<WebElement> children = parent.findElements(By.xpath("//p"));
+    assertThat(allPs.size()).isEqualTo(children.size());
+  }
+```
+
+
+
 Happy coding 😄
