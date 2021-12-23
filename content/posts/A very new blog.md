@@ -1,6 +1,6 @@
 ---
- title=A very new blog
- ---
+ title: A very new blog
+---
 
  
 sample goes here.
