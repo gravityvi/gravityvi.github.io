@@ -1,6 +1,6 @@
 ---
  title: A very new blog
- date: Thu Dec 23 2021 19:42:51 GMT+0000 (Coordinated Universal Time)
+ date: 2021-12-23T19:48:01.735Z
 ---
 
  
