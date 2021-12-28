@@ -1,7 +1,7 @@
 
       ---
         title: All types of String in Rust
-        date: undefined
+        date: 2021-12-28T15:23:00.000Z
       ---
 
       
